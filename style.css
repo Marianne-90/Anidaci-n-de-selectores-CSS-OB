@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+button::before{
+  content: "Pasa por encima";
+}
+
+
+
+button:hover{
+  color:white;
+  background-color: green;
+}
+
+button:hover::before{
+  content: "Hecho";
+}
